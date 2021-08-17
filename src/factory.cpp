@@ -213,7 +213,7 @@ void Factory::add_model(unsigned int& patient_number) const
             <visual name ='visual'>\
                 <geometry>\
                 <mesh>\
-                    <uri>model://MaleVisitorPhone/meshes/MaleVisitorPhoneWalk.dae</uri>\
+                    <uri>model://cardboard_box/meshes/cardboard_box.dae</uri>\
                 </mesh>\
                 </geometry>\
             </visual>\
