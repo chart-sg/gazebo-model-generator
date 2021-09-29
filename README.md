@@ -38,7 +38,7 @@ source /opt/ros/foxy/setup.bash; source /source $HOME/gz_plugin_ws/install/setup
 ros2 launch factory plugin_tryout.launch.xml
 
 ### Then in another teminal ###
-ros2 param set cgh/patient/P1/count 10
+ros2 param set /factory cgh/patient/P1/count 10
 ```
 ## Using it in your own packages 
 
